@@ -12,3 +12,5 @@ Dockerfile
 docker-compose*.yml
 init.sql
 config
+LICENSE
+README.md
