@@ -1,6 +1,8 @@
 # Repository Summary
 * Docker  
 * Docker Compose
+* Spring Boot (back-end)
+* Angular (front-end)
 # Servers
 
 Application that manages servers. Data are stored in relational database. Application has 3 profiles and use different database in each profile:
