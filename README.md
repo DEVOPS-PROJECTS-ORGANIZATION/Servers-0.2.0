@@ -1,7 +1,8 @@
 # Repository Summary
 * Docker  
 * Docker Compose
-* 
+* Mysql-database
+* Postgresql-database
 * Spring Boot (back-end)
 * Angular (front-end)
 # Servers
