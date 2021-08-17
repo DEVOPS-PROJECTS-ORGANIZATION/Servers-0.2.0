@@ -21,12 +21,12 @@ Dockerfile contains two runtime stages:
 In order to build **appServerRuntime** image run the following command (Dockerfile has to be in current working direcotry and allowed values for stage are dev, test, prod):
 
 ```shell
-DOCKER_BUILDKIT=1 docker build --target appServerRuntime --build-args STAGE=dev -t danijelradakovic/servers:0.2.0 .
+DOCKER_BUILDKIT=1 docker build --target appServerRuntime --build-arg STAGE=dev -t danijelradakovic/servers:0.2.0 .
 ```
 
 In order to build **appServerRuntime** image run the following command (Dockerfile has to be in current working direcotry and allowed values for stage are dev, test, prod):
 ```shell
-DOCKER_BUILDKIT=1 docker build --target appServerRuntime --build-args STAGE=dev -t danijelradakovic/servers:0.2.1 .
+DOCKER_BUILDKIT=1 docker build --target appServerRuntime --build-arg STAGE=dev -t danijelradakovic/servers:0.2.1 .
 ```
 
 Building container images can also be achieved using docker compose. Before running any docker compose command you should always check configuration using the following command:
