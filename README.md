@@ -1,7 +1,7 @@
 # Repository Summary
 * Docker  
 * Docker Compose
-* Docker staging and pom.xml profiles (dev, test, prod Environments)
+* Docker staging and pom.xml profiles (dev, test, prod environments)
 * Mysql-database
 * Postgresql-database
 * Spring Boot (back-end)
