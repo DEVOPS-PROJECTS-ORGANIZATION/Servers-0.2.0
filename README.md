@@ -19,13 +19,13 @@ Dockerfile contains two runtime stages:
 
 [BuildKit](https://github.com/moby/buildkit) is used for building container images.
 
-In order to build **appServerRuntime** image run the following command (Dockerfile has to be in current working direcotry and allowed values for stage are dev, test, prod):
+In order to build **appServerRuntime** image run the following command (Dockerfile has to be in current working directory and allowed values for stage are dev, test, prod):
 
 ```shell
 DOCKER_BUILDKIT=1 docker build --target appServerRuntime --build-arg STAGE=dev -t danijelradakovic/servers:0.2.0 .
 ```
 
-In order to build **appWebServerRuntime** image run the following command (Dockerfile has to be in current working direcotry and allowed values for stage are dev, test, prod):
+In order to build **appWebServerRuntime** image run the following command (Dockerfile has to be in current working directory and allowed values for stage are dev, test, prod):
 ```shell
 DOCKER_BUILDKIT=1 docker build --target appWebServerRuntime --build-arg STAGE=dev -t danijelradakovic/servers:0.2.1 .
 ```
