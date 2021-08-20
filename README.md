@@ -35,17 +35,17 @@ Building container images can also be achieved using docker compose. Before runn
 docker-compose --env-file config/.env.dev config
 ```
 
-To setup an infrastructure run the following command:
+To setup an infrastructure for development environment run the following command:
 ```shell
 docker-compose --env-file config/.env.dev up --build
 ```
 
-To setup an infrastructure for test environment run the fllowing command:
+To setup an infrastructure for test environment run the following command:
 ```shell
 docker-compose --env-file config/.env.test -f docker-compose.yml -f docker-compose.test.yml up --build
 ```
 
-To setup an infrastructure for production environment run the fllowing command:
+To setup an infrastructure for production environment run the following command:
 ```shell
 docker-compose --env-file config/.env.prod -f docker-compose.yml -f docker-compose.prod.yml up --build
 ```
